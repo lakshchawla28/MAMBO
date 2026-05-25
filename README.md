@@ -1,91 +1,209 @@
 <p align="center">
-  <img src="https://mambo-app-co.vercel.app/assets/MAMBO%20LOGO.png" alt="MAMBO Logo" width="180px">
+  <img src="https://mambo-app-co.vercel.app/assets/MAMBO%20LOGO.png" alt="MAMBO Logo" width="220px">
 </p>
 
 <h1 align="center">MAMBO</h1>
-<p align="center"><strong>The Ultimate Social Universe for Cinephiles</strong></p>
+<p align="center"><strong>The Ultimate Social Universe & Cinema DNA Tracker for Cinephiles</strong></p>
 
 <p align="center">
-  <a href="https://mambo-app-co.vercel.app/"><strong>Live Website ➔</strong></a> | 
-  <a href="https://github.com/lakshchawla28/MAMBO/raw/main/mambo.v1.0.2.apk"><strong>Download APK ➔</strong></a>
+  <a href="https://mambo-app-co.vercel.app/"><strong>Live Landing Page ➔</strong></a> | 
+  <a href="https://github.com/lakshchawla28/MAMBO/raw/main/mambo.v1.0.2.apk"><strong>Download Android APK ➔</strong></a>
 </p>
 
 ---
 
-## 🎬 About MAMBO
+## 🎬 What is MAMBO?
 
-Stop switching between apps. Enter a unified social platform specifically built for movie, series, and anime lovers. **MAMBO** brings all your media formats into a single, cohesive, premium experience. Track what you watch, review/rate titles, start discussions, maintain curated collections, and chat directly with your friends without ever leaving the platform.
+Stop switching between IMDb, Letterboxd, MyAnimeList, and chat apps. **MAMBO** is a unified social platform specifically engineered for movie, TV series, and anime lovers. It fuses media tracking, social reviews, curated lists, and direct communication into a single, high-fidelity application built on a premium, dark-mode glassmorphic user interface.
+
+With MAMBO, you don't just log what you watch—you build your **Cinema DNA**, review titles with precision, recommend gems directly to your inner circle, and explore new horizons across all cinematic mediums.
 
 <p align="center">
-  <img src="https://mambo-app-co.vercel.app/assets/mambo%20app%20images/landing%20screen.jpg" alt="MAMBO UI Preview" width="300px" style="border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.5);">
+  <img src="https://mambo-app-co.vercel.app/assets/mambo%20app%20images/landing%20screen.jpg" alt="MAMBO UI Preview" width="300px" style="border-radius: 16px; box-shadow: 0 8px 30px rgba(0,0,0,0.6); border: 1px solid rgba(255,255,255,0.1);">
 </p>
 
 ---
 
-## ✨ Features
+## 🌟 Enhanced Feature Set
 
-### 1. Unified Mood-Based Experience
-Express your vibe. Switch dynamically between three highly tailored visual modes:
-*   🎬 **Movie Mode:** Sleek, atmospheric interface crafted for film enthusiasts.
-*   💙 **Series Mode:** Deep blue visual transition built to ease eye strain during late-night binge sessions.
-*   🔥 **Anime Mode:** A fiery orange aesthetic change that transforms the entire look-and-feel of the application.
+### 🎭 Mood-Based UI Environments
+MAMBO adapts to what you are watching. Toggling modes shifts the entire application’s aesthetic, color palettes, and gradients:
+*   🎬 **Movie Mode:** Elegant, deep gold and obsidian theme inspired by the classic theater experience.
+*   💙 **Series Mode:** Calm, royal blue and dark indigo gradient shifts designed for high-density information and long binge sessions.
+*   🔥 **Anime Mode:** Explosive fire-orange and neon pink gradients matching the energetic pacing of anime.
 
-### 2. Swipe Up to Discover
-Ditch the endless scrolling. Swipe through a responsive discovery feed highlighting trending, top-rated, and upcoming releases. Check out the **Anticipated** section and mark titles as **Interested** so they are tracked on your schedule.
+### 📊 Cinema DNA Tracker & Stats (MAMBO Wrapped)
+Your taste, quantified. The stats dashboard analyzes your watch history in real-time to generate a Letterboxd-style statistical analysis:
+*   **Total Minutes Watched:** Breakdown of total watch time across movies, series, and anime.
+*   **Aesthetic Balance:** Interactive charts visualizing your genre affinity and medium distribution.
+*   **Cinematic Records:** Showcase your top-rated directors, actors, and monthly watching spikes.
+*   **Wrapped Cards:** Share custom-generated statistical summaries of your year or month in cinema.
 
-### 3. Rate, Review & Discuss
-Share your cinematic opinions with the community.
-*   Write in-depth reviews and assign 5-star ratings.
-*   Recommend movies, series, or anime directly to friends.
-*   Start interactive discussions, ask questions, and tag fellow users seamlessly in threads.
+### 📱 Swipe-to-Discover Feed
+Browse trending lists, highly anticipated releases, and personalized recommendations with a fluid swipe-up vertical feed.
+*   **Anticipated Tab:** View calendar dates for upcoming blockbusters and seasons.
+*   **Interest Toggle:** Mark upcoming content as "Interested" to receive launch notifications and auto-add them to your watchlist.
 
-### 4. Custom Collections & Watchlists
-Keep your cinematic log organized. Create customized lists and collections based on actors, directors, genres, or personal themes. Never forget what you plan to watch next.
+### 📝 Rate, Review & Recommend
+*   **Log Entries:** Log titles with custom dates, specific watch settings (rewatch, theater, platform), and half-star scoring (0.5 to 5.0).
+*   **Deep Reviews:** Post thoughts in markdown formatting, start discussion threads on specific episodes, and tag friends.
+*   **Direct Recommendations:** Send a title straight to a friend's recommendation inbox with a personalized note, bypassing algorithms.
 
-### 5. Premium Profiles & Cinema DNA Tracker
-Flaunt your exquisite taste. Showcase your favorite actors, directors, and reviews. View your Letterboxd-style statistical overview ("Mambo Wrapped") to visualize your watch history and cinema DNA.
+### 📂 Collections & Watchlists
+*   **Universal Watchlist:** Keep track of what you intend to watch.
+*   **Custom Playlists:** Create collections like *"Mind-bending Sci-Fi"*, *"Comfort Anime"*, or *"Nolan Masterpieces"* and share them with the community.
 
-### 6. Real-Time Chat & Sharing
-Discuss cinema in real-time. Share what you are currently watching directly into in-app chat channels with friends. 
-
-### 7. Google Authentication
-No complex invite keys or long forms. Secure, hassle-free login using Google OAuth to join the circle instantly.
+### ✉️ Real-Time Social Chat
+*   Discuss releases in dedicated WebSocket-backed group chats or private DMs.
+*   Directly embed movie cards, custom review reviews, or your current watch activity inside the chat interface.
 
 ---
 
-## 🛠️ Technology Stack
+## 🛠️ Tech Stack & Architecture
 
-MAMBO is engineered using state-of-the-art technologies to ensure low-latency performance and a fluid user experience.
+MAMBO is built with a decoupled client-server architecture designed for high availability and low latency.
 
-### Mobile App (Frontend)
-*   **Framework:** Flutter (Dart)
+```mermaid
+graph TD
+    A[Flutter App] <-->|HTTPS/Dio| B[FastAPI Gateway]
+    A <-->|WebSockets| C[Real-Time Chat Service]
+    B <-->|SQLAlchemy Async| D[(PostgreSQL / Supabase)]
+    B <-->|Redis Client| E[(Upstash Redis Cache)]
+    B -->|Sentry SDK| F[Monitoring & Logs]
+```
+
+### 📱 Mobile App (Frontend)
+*   **Core:** Flutter SDK & Dart
 *   **State Management:** Riverpod (`flutter_riverpod`)
-*   **Routing & Navigation:** GoRouter
-*   **Caching & Local Storage:** Hive & SharedPreferences
-*   **Animations:** Flutter Animate (`flutter_animate`)
-*   **Networking:** Dio Client & WebSockets (for real-time chat)
+*   **Navigation:** GoRouter (with custom transition physics)
+*   **Local Caching:** Hive DB & Shared Preferences
+*   **Animations:** Flutter Animate (`flutter_animate`) & Hero transitions
+*   **HTTP Client:** Dio (configured with retry interceptors & JWT refresh handlers)
 
-### Backend Services
-*   **Framework:** FastAPI (Python) & Uvicorn
-*   **Database & ORM:** PostgreSQL, Supabase & SQLAlchemy
-*   **Caching & Rate Limiting:** Redis & Upstash Redis
-*   **Real-time Tracking:** Sentry SDK
-*   **Authentication:** Firebase Admin SDK & PyJWT
-
----
-
-## 📲 Installation Guide
-
-### Android Installation
-1.  Download the latest release APK directly from the repository: **[mambo.v1.0.2.apk](./mambo.v1.0.2.apk)** or from the website [mambo-app-co.vercel.app](https://mambo-app-co.vercel.app/).
-2.  Open the downloaded `.apk` file on your Android device.
-3.  If prompted, allow installation from "Unknown Sources" in your system settings.
-4.  Launch the app, sign in securely with Google, and start building your Cinema DNA!
+### ⚙️ Backend Services
+*   **Framework:** FastAPI (Python 3.10+) & Uvicorn ASGI Server
+*   **Database:** PostgreSQL hosted on Supabase (using SQLAlchemy async ORM)
+*   **Caching & Rate Limiting:** Upstash Redis (preventing API scraping and token abuse)
+*   **Error Monitoring:** Sentry SDK Integration
+*   **Authentication:** Firebase Admin SDK & PyJWT (Google OAuth verified)
+*   **Cron Schedulers:** Automated background workers for clearing expired cache, database data healing, and cinematic news scraping (using BeautifulSoup4).
 
 ---
 
-## 🧑‍💻 Creator
+## 🗂️ Backend API Gateway Overview
 
-*   **Laksh Chawla** - *Creator, Admin & Lead Developer*
+The FastAPI backend uses structured versioning (`/v1`) with modular route files:
+
+| Route Path | Description |
+| :--- | :--- |
+| `/v1/auth` | Firebase OAuth token exchange, JWT generation, and session validation. |
+| `/v1/users` | Handles profiles, connection requests, and user privacy settings. |
+| `/v1/reviews` | Create, read, update, and delete reviews (with support for half-star ratings). |
+| `/v1/posts` | Social feed management: timeline assembly, image uploads, and post interactions. |
+| `/v1/feed` | Algorithmic and chronological activity streams of followed users. |
+| `/v1/discover` | Swipe-up content generator showcasing trending movies, series, and anime. |
+| `/v1/content` | Content metadata retrieval, poster fetches, and streaming details. |
+| `/v1/collections` | Create, edit, and query user-curated lists and watchlists. |
+| `/v1/recommendations` | Handles peer-to-peer sharing and content suggestion engines. |
+| `/v1/chat` | WebSocket endpoints for low-latency direct and group messaging. |
+| `/v1/notifications` | Triggers, clears, and reads in-app and push notification states. |
+| `/v1/news` | Aggregates and serves verified pop-culture and cinematic news. |
+
+---
+
+## 💻 Local Development Setup
+
+To run MAMBO locally in your development environment, follow these steps:
+
+### Prerequisites
+*   [Flutter SDK](https://docs.flutter.dev/get-started/install) (v3.0.0 or higher)
+*   [Python](https://www.python.org/downloads/) (v3.10 or higher)
+*   [Node.js](https://nodejs.org/) (for the Landing Page website)
+*   Supabase Account & Firebase Project for Auth configurations.
+
+---
+
+### 1. Backend Server Setup
+1.  Navigate to the backend directory:
+    ```bash
+    cd mambo-backend
+    ```
+2.  Create a virtual environment and activate it:
+    ```bash
+    python -m venv venv
+    # On Windows:
+    .\venv\Scripts\activate
+    # On macOS/Linux:
+    source venv/bin/activate
+    ```
+3.  Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+4.  Configure your environment variables by copying `.env.example` to `.env` and updating the values:
+    ```bash
+    cp .env.example .env
+    ```
+5.  Start the FastAPI local development server:
+    ```bash
+    uvicorn app.main:app --reload
+    ```
+    *The API will be available at `http://127.0.0.1:8000` with interactive Swagger docs at `http://127.0.0.1:8000/docs`.*
+
+---
+
+### 2. Flutter Mobile App Setup
+1.  Navigate to the mobile app directory:
+    ```bash
+    cd mambo_app
+    ```
+2.  Install Flutter packages:
+    ```bash
+    flutter pub get
+    ```
+3.  Generate the required code-generation models (Freezed, JSON Serializers):
+    ```bash
+    dart run build_runner build --delete-conflicting-outputs
+    ```
+4.  Connect an Android emulator or device, and launch the app:
+    ```bash
+    flutter run
+    ```
+
+---
+
+### 3. Landing Page Website Setup
+1.  Navigate to the website directory:
+    ```bash
+    cd mambo_website
+    ```
+2.  Install dependencies:
+    ```bash
+    npm install
+    ```
+3.  Launch the local dev server:
+    ```bash
+    npm run dev
+    ```
+4.  Build the production distribution:
+    ```bash
+    npm run build
+    ```
+
+---
+
+## 📲 APK Installation Guide (Android)
+
+1.  Download the latest compiled release build directly from this repo: **[mambo.v1.0.2.apk](./mambo.v1.0.2.apk)**.
+2.  Transfer the file to your Android device (or download it directly from the phone).
+3.  Locate the `.apk` file in your device's file manager and click it.
+4.  If prompted, enable "Install from Unknown Sources" or "Allow from this source" in your settings.
+5.  Open **MAMBO**, sign in securely with your Google account, and start crafting your Cinema DNA!
+
+---
+
+## 🧑‍💻 Creator & Admin
+
+*   **Laksh Chawla** - *Founder & Lead Architect*
     *   [LinkedIn Profile](https://linkedin.com/in/laksh-chawla-1135b7280)
     *   [GitHub Profile](https://github.com/lakshchawla28)
